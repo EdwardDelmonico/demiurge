@@ -1,0 +1,17 @@
+{
+    "name": "the-demiurge",
+    "version": "1.0.0",
+    "description": "The Grey Sun has no warden, for it has no gate.",
+    "main": "bot.js",
+    "author": "Edward Delmonico",
+    "dependencies": {
+        "@discordjs/builders": "^1.2.0",
+        "@discordjs/rest": "^1.1.0",
+        "axios": "^0.27.2",
+        "cheerio": "^1.0.0-rc.12",
+        "discord.js": "^14.3.0",
+        "jsdom": "^20.0.0",
+        "nodemon": "^2.0.19",
+        "winston": "^3.8.2"
+    }
+}
