@@ -21,7 +21,7 @@ module.exports = {
             files: [{
                 attachment: ephemera.getPath(res)
             }],
-            ephemeral: true,
+            ephemeral: true
         });
     },
 };
