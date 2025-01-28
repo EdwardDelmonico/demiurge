@@ -3,8 +3,8 @@ const fs = require('node:fs');
 class Deck {
     constructor(deckName) {
         this.deckName = deckName;
-        this.deckPath = `imgs/${this.deckName}`;
-        this.discardPath = `imgs/discard/${this.deckName}`;
+        this.deckPath = `assets/imgs/${this.deckName}`;
+        this.discardPath = `assets/imgs/discard/${this.deckName}`;
         this.deckContents = fs.readdirSync(this.deckPath).filter(fileName => fileName !== ".DS_Store");
         this.discardContents = fs.readdirSync(this.discardPath).filter(fileName => fileName !== ".DS_Store");
     }

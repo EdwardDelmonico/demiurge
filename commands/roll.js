@@ -13,8 +13,7 @@ module.exports = {
             option.setName('venture')
                 .setDescription('Modifier?')
                 .setRequired(false)
-        )
-    ,
+        ),
     async execute(interaction) {
         const number = interaction.options.getInteger('number');
         const venture = interaction.options.getInteger('venture');
@@ -29,7 +28,7 @@ module.exports = {
 
         if (number) {
             if (number > 10) {
-                firstRoll = 'oh get bent'
+                firstRoll = 'get bent'
             } else {
                 for (let i = 1; i < number; ++i) {
                     firstRoll += ` **${roll()}**`
