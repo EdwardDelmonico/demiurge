@@ -2,14 +2,7 @@
 config.json
 node_modules/
 
-mishap.js
-curse.js
-minor-flux.js
-major-flux.js
-grand-flux.js
-minor-side-effect.js
-major-side-effect.js
-magic.js
+assets/
 
 **.png
 **.pdf
