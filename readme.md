@@ -1,5 +1,5 @@
 # The Demiurge
-## Created by Edward Delmonico
+Created by Edward Delmonico
 
 ### About
 This is a multi-purpose Discord bot that helps facilitate online games of Invisible Sun. Built using the Discord.js Node package, The Demiurge allows players to perform various useful automated tasks using Discord's Slash Command architecture. </p>
