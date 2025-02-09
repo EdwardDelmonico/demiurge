@@ -10,6 +10,9 @@ Monte Cook Games does not allow the sharing or reprinting of their content for a
 ### Commands
 
 #### /roll
+Optional parameters:
+- venture: adds a numerical value to all roll results, representing the character's venture
+- number: specifies how many dice are rolled at once
 Rolls a 10-sided die. If multiple dice are rolled at once, all results after the first are bolded to signify that they are magical effects and subject to magical flux.
 
 #### /sooth
